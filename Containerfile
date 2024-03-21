@@ -1,7 +1,8 @@
 FROM registry.fedoraproject.org/fedora-minimal:39
 
 RUN microdnf -y install \
-	vim
+	vim \
+	nodejs
 
 CMD ["vim", "--help"]
 
