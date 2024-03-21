@@ -1,0 +1,52 @@
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+  - arch: x86_64
+    packages:
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/releases/39/Everything/x86_64/os/Packages/g/gpm-libs-1.20.7-44.fc39.x86_64.rpm
+        size: 20720
+        checksum: sha256:f5c8f20f0f9468da8cdf140d7df30ed117a43b73eee816888e2624b0fcd048ca
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/releases/39/Everything/x86_64/os/Packages/w/which-2.21-40.fc39.x86_64.rpm
+        size: 42835
+        checksum: sha256:ec1d8a1c0d88883a03e96ba88a6278899bd559fb37833cb2383ffdd6a38c22ae
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/updates/39/Everything/x86_64/Packages/l/libsodium-1.0.18-15.fc39.x86_64.rpm
+        size: 166032
+        checksum: sha256:275308eace6e1cd0a9e572475a42db51777bcbc50f663c177930021720c0e117
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/updates/39/Everything/x86_64/Packages/v/vim-common-9.1.181-1.fc39.x86_64.rpm
+        size: 8238720
+        checksum: sha256:693337b81ab0bde0ba982291e2e1391f431d9eed5aeeabe2da710dc9a9f6747d
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/updates/39/Everything/x86_64/Packages/v/vim-enhanced-9.1.181-1.fc39.x86_64.rpm
+        size: 1977745
+        checksum: sha256:63cba987bc30f55f217c806afb13cef2e39e8d8692c86fb417ba2848c368d755
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/updates/39/Everything/x86_64/Packages/v/vim-filesystem-9.1.181-1.fc39.noarch.rpm
+        size: 17923
+        checksum: sha256:65dcf22ff14750e7f9e3eba6d20759f96a9f1b5df9aecbb24e9f576361508966
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/updates/39/Everything/x86_64/Packages/x/xxd-9.1.181-1.fc39.x86_64.rpm
+        size: 37009
+        checksum: sha256:4974d57d137df7cac2ea5af41f5423ce1183352dab764a483a10ad114824cf02
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/updates/39/Everything/x86_64/Packages/v/vim-data-9.1.181-1.fc39.noarch.rpm
+        size: 23381
+        checksum: sha256:666922e7ee2f7dcc246710c5bbbf9ea64ea36a060729c6bc5c120806b23e5a8d
+      - repoid: updates-released
+        url: http://fedora.c3sl.ufpr.br/linux/updates/39/Everything/x86_64/Packages/v/vim-minimal-9.1.181-1.fc39.x86_64.rpm
+        size: 828097
+        checksum: sha256:4b2de7184036452970809029a0c102ceecad814257d7abc60145b94d837132e0
+    # TODO: fix source rpms
+    sources:
+      - url: https://mirrors.nic.cz/pub/fedora/linux/updates/38/Everything/source/tree/Packages/v/vim-9.1.158-1.fc38.src.rpm
+        checksum: sha256:94803b5e1ff601bf4009f223cb53037cdfa2fe559d90251bbe85a3a5bc6d2aab
+        size: 14735448
+        repoid: updates-source
+      - url: https://mirrors.nic.cz/pub/fedora/linux/releases/38/Everything/source/tree/Packages/g/gpm-1.20.7-42.fc38.src.rpm
+        checksum: sha256:ad004fdcb4a95a848fd00d57765476d8d576bf6824fd073f56290b6c52d7e5b2
+        size: 250906
+        repoid: fedora-source
+
